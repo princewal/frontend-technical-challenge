@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Doordash",
+        "imageUrl": "https://placehold.co/600x400/orange/white?text=Doordash"
+    },
+    {
+        "id": 2,
+        "name": "Grubhub",
+        "imageUrl": "https://placehold.co/600x400/orange/white?text=Grubhub"
+    },
+    {
+        "id": 3,
+        "name": "Uber Eats",
+        "imageUrl": "https://placehold.co/600x400/red/white?text=Uber%20Eats"
+    },
+    {
+        "id": 4,
+        "name": "Skip the Dishes",
+        "imageUrl": "https://placehold.co/600x400/blue/white?text=Skip%20the%20Dishes"
+    },
+    {
+        "id": 5,
+        "name": "Ritual",
+        "imageUrl": "https://placehold.co/600x400/green/white?text=Ritual"
+    },
+    {
+        "id": 6,
+        "name": "Shopify",
+        "imageUrl": "https://placehold.co/600x400/yellow/black?text=Shopify"
+    },
+    {
+        "id": 7,
+        "name": "ChowNow",
+        "imageUrl": "https://placehold.co/600x400/purple/white?text=ChowNow"
+    },
+    {
+        "id": 8,
+        "name": "Delivery Hero",
+        "imageUrl": "https://placehold.co/600x400/white/black?text=Delivery%20Hero"
+    },
+    {
+        "id": 9,
+        "name": "Foodpanda",
+        "imageUrl": "https://placehold.co/600x400/pink/black?text=Foodpanda"
+    },
+    {
+        "id": 10,
+        "name": "Deliveroo",
+        "imageUrl": "https://placehold.co/600x400/lightgreen/black?text=Deliveroo"
+    },
+    {
+        "id": 11,
+        "name": "Foodora",
+        "imageUrl": "https://placehold.co/600x400/black/white?text=Foodora"
+    },
+    {
+        "id": 12,
+        "name": "HungerStation",
+        "imageUrl": "https://placehold.co/600x400/lightblue/black?text=HungerStation"
+    }
+]

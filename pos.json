@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Square",
+        "imageUrl": "https://placehold.co/600x400/orange/white?text=Square"
+    },
+    {
+        "id": 2,
+        "name": "POSist Dark Kitchen",
+        "imageUrl": "https://placehold.co/600x400/orange/white?text=POSist%20Dark%20Kitchen"
+    },
+    {
+        "id": 3,
+        "name": "TouchBistro",
+        "imageUrl": "https://placehold.co/600x400/red/white?text=TouchBistro"
+    },
+    {
+        "id": 4,
+        "name": "Maitre'D",
+        "imageUrl": "https://placehold.co/600x400/blue/white?text=Maitre'D"
+    },
+    {
+        "id": 5,
+        "name": "Cluster",
+        "imageUrl": "https://placehold.co/600x400/green/white?text=Cluster"
+    },
+    {
+        "id": 6,
+        "name": "Icrtouch",
+        "imageUrl": "https://placehold.co/600x400/yellow/black?text=Icrtouch"
+    },
+    {
+        "id": 7,
+        "name": "Ibsepos",
+        "imageUrl": "https://placehold.co/600x400/purple/white?text=Ibsepos"
+    },
+    {
+        "id": 8,
+        "name": "Tevalis",
+        "imageUrl": "https://placehold.co/600x400/white/black?text=Tevalis"
+    },
+    {
+        "id": 9,
+        "name": "Igtagora",
+        "imageUrl": "https://placehold.co/600x400/pink/black?text=Igtagora"
+    },
+    {
+        "id": 10,
+        "name": "Veloce",
+        "imageUrl": "https://placehold.co/600x400/lightgreen/black?text=Veloce"
+    },
+    {
+        "id": 11,
+        "name": "Revel",
+        "imageUrl": "https://placehold.co/600x400/black/white?text=Revel"
+    },
+    {
+        "id": 12,
+        "name": "Kounta",
+        "imageUrl": "https://placehold.co/600x400/lightblue/black?text=Kounta"
+    }
+]
