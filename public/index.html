@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+
+    <link rel="stylesheet" href="./styles/main.css" />
+
+    <script src="./scripts/main.js"></script>
+  </head>
+  <body>
+    <main>
+      <article class="container">
+        <div class="form-container">
+          <header>
+            <h1>Business Sign up</h1>
+          </header>
+
+          <div class="progress-bar">
+            <div class="progress-steps active" data-step="1">1</div>
+            <div class="progress-steps" data-step="2">2</div>
+            <div class="progress-steps" data-step="3">3</div>
+          </div>
+
+          <form id="businessForm">
+            <div class="step" data-step="1">
+              <h2>About You</h2>
+              <div class="input-group">
+                <label for="firstName">first name:<sup>*</sup></label>
+                <input type="text" name="firstName" id="firstName" required />
+              </div>
+              <div class="input-group">
+                <label for="lastName">last name: <sup>*</sup></label>
+                <input type="text" name="lastName" id="lastName" required />
+              </div>
+              <div class="input-group">
+                <label for="email">Email: <sup>*</sup></label>
+                <input type="email" name="email" id="email" required />
+              </div>
+              <div class="button-group">
+                <button type="button" class="next">Next</button>
+              </div>
+            </div>
+            <div class="step active" data-step="2">
+              <h2>About the Company</h2>
+              <div class="input-group">
+                <label for="businessName">Business Name</label>
+                <input
+                  type="text"
+                  name="businessName"
+                  id="businessName"
+                  minlength="2"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="businessSize">Business Size</label>
+                <input
+                  type="number"
+                  name="businessSize"
+                  id="businessSize"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <label for="businessType">Business Type:</label>
+                <select name="businessType" id="businessType" required>
+                  <option value="">Choose an option</option>
+                  <option value="smb">SMB</option>
+                  <option value="midmarket">Midmarket</option>
+                  <option value="enterprise">Enterprise</option>
+                </select>
+              </div>
+
+              <div class="custom-dropdown-container" data-dropdown="pos">
+                <div class="custom-dropdown-head">
+                  <div class="custom-dropdown-heading">POS</div>
+                  <button type="button" class="custom-dropdown">
+                    Select POS
+                  </button>
+                </div>
+                <div class="custom-dropdown-content">
+                  <div class="input-group radio-buttons">
+                    <!-- autofill-->
+                  </div>
+                </div>
+              </div>
+
+              <div class="custom-dropdown-container" data-dropdown="channel">
+                <div class="custom-dropdown-head">
+                  <div class="custom-dropdown-heading">Delivery Channel</div>
+                  <button type="button" class="custom-dropdown">
+                    Select Delivery Channel
+                  </button>
+                </div>
+                <div class="custom-dropdown-content">
+                  <div class="input-group radio-buttons">
+                    <!-- autofill-->
+                  </div>
+                </div>
+              </div>
+
+              <div class="button-group two-btns">
+                <button type="button" class="prev">Prev</button>
+                <button type="button" class="next">Next</button>
+              </div>
+            </div>
+            <div class="step" data-step="3">
+              <h2>Verify and Submit</h2>
+              <div class="verify-container">
+                <div class="width-50" data-form="firstName">
+                  First Name: <span></span>
+                </div>
+                <div class="width-50" data-form="lastName">
+                  Last Name: <span></span>
+                </div>
+                <div class="width-full" data-form="email">
+                  Email: <span></span>
+                </div>
+                <div class="width-full" data-form="businessName">
+                  Business Name: <span></span>
+                </div>
+                <div class="width-50" data-form="businessSize">
+                  Business Size: <span></span>
+                </div>
+                <div class="width-50" data-form="businessType">
+                  Business Type: <span></span>
+                </div>
+                <div class="width-50" data-form="pos">POS: <span></span></div>
+                <div class="width-50" data-form="channel">
+                  Delivery Channel: <span></span>
+                </div>
+              </div>
+              <div class="button-group two-btns">
+                <button type="button" class="prev">Prev</button>
+                <button type="submit" class="">Submit</button>
+              </div>
+            </div>
+          </form>
+          <div class="submission-container">
+            <h2>Thank You for your Submission</h2>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
